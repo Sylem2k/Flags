@@ -1,0 +1,13 @@
+GenericEntity : "{D2BBB29E13CCE206}Prefabs/Props/Fabric/Flags/Flag_1_2_Aquila_Red.et" {
+ ID "50E2C85E7DD38DD0"
+ components {
+  MeshObject "{52AE82368499B365}" {
+   Materials {
+    MaterialAssignClass "{660530D03AB6A5D7}" {
+     SourceMaterial "Flag_1_2"
+     AssignedMaterial "{CE8484BD031CF2EC}Assets/Props/Fabric/Flags/Data/Flag_5082nd_Falcon.emat"
+    }
+   }
+  }
+ }
+}

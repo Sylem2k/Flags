@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE8484BD031CF2EC}Assets/Props/Fabric/Flags/Data/Flag_5082nd.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{AE09DA7896F9DB37}Prefabs/Props/Fabric/Flags/Flag_1_2.et" {
+ ID "50E2C85E7DD38DD0"
+ components {
+  MeshObject "{52AE82368499B365}" {
+   Materials {
+    MaterialAssignClass "{69D72DAE65645FDD}" {
+     SourceMaterial "Flag_1_2"
+     AssignedMaterial "{C44C19B789173DD6}Assets/Props/Fabric/Flags/Data/Flag_741st_Krieg.emat"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

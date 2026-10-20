@@ -1,0 +1,55 @@
+Projectile : "{AC26AB660097633D}Prefabs/Weapons/Ammo/Ammo_556x45_Ball_M855.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{69E062ACD60E02A7}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{69E062ACD60E026F}" {
+     EffectPrefab "{98F16581C1F359D1}Prefabs/Weapons/Warheads/Warhead_HotLasbolt.et"
+    }
+    AIExplosionEffect "{69E062ACD60E0263}" {
+    }
+   }
+  }
+  MissileMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 600
+   InitSpeedVariation 10
+   Mass 1
+   TimeToLive 1.2
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     Enabled 0
+     DamageValue 1
+    }
+    AIHitEffect "{C422E51CCDDF6BD3}" {
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     Enabled 0
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{ABB60612F7DBCB21}Sounds/Weapons/_SharedData/BulletHits/Weapons_LaserHits.acp"
+    }
+   }
+   BallisticTableConfig "{CA0A6467CB33D89F}Configs/Weapons/AIBallisticTables/AIBT_145x114_API_57BZ561S.conf"
+   SonicCracks "{32DAB1EFA54D78C0}Sounds/Weapons/_SharedData/BulletSonicCracks/Rifle/Weapons_LaserSonicCracks_Lasgun.acp"
+   SubsonicFlybys "{3480E999C459F265}Sounds/Weapons/_SharedData/BulletFlybys/Rifle/Weapons_LaserFlybys_Lasgun.acp"
+   AirDrag 0
+   SideAirDragScale 0
+   MaxControlRange 0
+   TrackLead 0
+   ThrustInitTime 0
+   ThrustTime 0
+   ThrustForce 0
+   ForwardAirFriction 0
+   SideAirFriction 0
+   AlignTorque 0
+   DistanceEnableGravitation 1000
+  }
+  RocketTraceEffectComponent "{69E062ACD60E0208}" {
+   ParticleEffect "{F93E74135C69A6BA}Particle/LasMuzzle/HotLasBeam_Static.ptc"
+  }
+ }
+ SpawnAsCartridge 0
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{788167B347FFA4A6}Assets/Weapons/Ammo/Bullets/145x114/Bullet_145x114.xob"
+ CartridgeModel ""
+}

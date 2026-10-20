@@ -1,0 +1,22 @@
+GameProject {
+ ID "Flags"
+ GUID "69D72DA4286F95DE"
+ TITLE "Flags"
+ Dependencies {
+  "6713039E038B611A" "6595113A3678CF5D" "628EFC16F2F17EF8" "61B84088181A8FA4" "629B2BA37EFFD577" "5D0551624969C92E" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

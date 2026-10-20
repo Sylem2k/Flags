@@ -1,0 +1,24 @@
+GenericEntity : "{08003B843D843AC8}Prefabs/Weapons/Rifles/GuardStyag/GuardStyag_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_FlagComponent "{664CD111AFEB624F}" {
+   m_sDefaultMaterial "{97A7A8E6EF230256}Assets/Props/Fabric/Flags/Data/Flag_1_2_Aquila_Gren.emat"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Guards Standard Green"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{660530D145310F19}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{6203C2025578E6D8}Prefabs/Props/Fabric/Flags/Flag_Green.et"
+     }
+    }
+   }
+  }
+ }
+}

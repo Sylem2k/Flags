@@ -1,0 +1,24 @@
+GenericEntity : "{08003B843D843AC8}Prefabs/Weapons/Rifles/GuardStyag/GuardStyag_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_FlagComponent "{664CD111AFEB624F}" {
+   m_sDefaultMaterial "{30254D8D2E9C6A8C}Assets/Props/Fabric/Flags/Data/Flag_310th_Dog.emat"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Guards Standard Dog"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{660530D145310F19}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{3B922353178248D8}Prefabs/Props/Fabric/Flags/Flag_310th_Dog.et"
+     }
+    }
+   }
+  }
+ }
+}

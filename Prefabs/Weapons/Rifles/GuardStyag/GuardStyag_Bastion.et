@@ -1,0 +1,25 @@
+GenericEntity : "{08003B843D843AC8}Prefabs/Weapons/Rifles/GuardStyag/GuardStyag_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_FlagComponent "{664CD111AFEB624F}" {
+   m_sDefaultMaterial "{C44C19B789173DD6}Assets/Props/Fabric/Flags/Data/Flag_741st_Krieg.emat"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Guards Standard Bastion"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{660530D145310F19}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{33C9AA1A3C2C64BD}Prefabs/Props/Fabric/Flags/Flag_741st_Bastion.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 -0.754
+}
